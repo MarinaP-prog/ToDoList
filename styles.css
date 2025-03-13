@@ -40,10 +40,7 @@ h1 {
 .todo-app {
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    /* width: 65%; */
     min-width: 400px;
-    /* max-width: 70%; */
-    /* min-height: 100vh; */
     overflow: auto;
     text-align: center;
     position: relative;
@@ -105,17 +102,11 @@ h1 {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: var(--white);
-    /* border-radius: 10px; */
     padding: 15px;
     width: 440px;
-    /* height: 95%; */
     flex-direction: column;
     justify-content: space-between;
     overflow: auto;
-    
-    /* width: 65%; */
-    /* min-width: 400px;  */
-    /* max-width: 70%; */
     height: 90vh;
     overflow: auto;
     text-align: center;
@@ -124,8 +115,6 @@ h1 {
     flex-direction: column;
     flex-grow: 1;
     background-color: var(--white);
-    /* border: 5px solid var(--pink-violet); */
-    /* gap: 10px; */
 }
 
 .task-form-header {
@@ -211,7 +200,7 @@ h1 {
 .task-desc {
     flex: 1;
     text-align: left;
-    word-wrap: break-word;  /* zabrání zalamování */
+    word-wrap: break-word; 
     overflow: hidden;
     text-overflow: ellipsis; /* přidá ... pokud je text moc dlouhý */
     min-width: 180px;
@@ -255,10 +244,6 @@ h1 {
     border-bottom: 2px solid black;
 
 }
-/* .task-header span {
-    flex: 1;
-    text-align: center;
-} */
 
 .task-header input {
     cursor: pointer;
